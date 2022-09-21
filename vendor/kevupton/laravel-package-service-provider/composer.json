@@ -1,0 +1,22 @@
+{
+    "name": "kevupton/laravel-package-service-provider",
+    "description": "Service provider for laravel to allow for multiple implementations",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kevin upton",
+            "email": "uptonkg@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Kevupton\\LaravelPackageServiceProvider\\": "src/Kevupton/LaravelPackageServiceProvider/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "laravel/laravel": "^5.5",
+        "laravel/lumen": "^5.5"
+    }
+}

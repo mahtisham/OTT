@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?c3273dae4b2724e92f1fc1ed29ef973a") format("truetype"),
+url("./flaticon.woff?c3273dae4b2724e92f1fc1ed29ef973a") format("woff"),
+url("./flaticon.woff2?c3273dae4b2724e92f1fc1ed29ef973a") format("woff2"),
+url("./flaticon.eot?c3273dae4b2724e92f1fc1ed29ef973a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c3273dae4b2724e92f1fc1ed29ef973a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-notifications-bell-button:before {
+    content: "\f101";
+}
+.flaticon-notification-bell:before {
+    content: "\f102";
+}
+.flaticon-search:before {
+    content: "\f103";
+}
+.flaticon-bell:before {
+    content: "\f104";
+}
+.flaticon-cancel:before {
+    content: "\f105";
+}
+.flaticon-translate:before {
+    content: "\f106";
+}
+.flaticon-notification:before {
+    content: "\f107";
+}
+.flaticon-left-arrow:before {
+    content: "\f108";
+}
+.flaticon-right-arrow:before {
+    content: "\f109";
+}
+.flaticon-login:before {
+    content: "\f10a";
+}
+.flaticon-contact:before {
+    content: "\f10b";
+}
+.flaticon-profile:before {
+    content: "\f10c";
+}

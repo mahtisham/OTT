@@ -1,0 +1,125 @@
+body{
+	background: #48A3c6 !important;
+}
+/* The ribbons */
+.corner-ribbon{
+  width: 200px;
+  background: #48A3c6;
+  border:2px solid #48A3c6;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #000;
+  font-size: 18px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.preL{
+  background-color: rgba(0,0,0,0.7);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 99999;
+}
+.preloader3 {
+  display: block;
+  margin:0 auto;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 9999;
+  background-image: url('{{ url('admin/images/preloadadmin.svg') }}');
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+/* Custom styles */
+.corner-ribbon.sticky{
+  position: fixed;
+}
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+.corner-ribbon.green{background: #000; color: #FFF;}
+.corner-ribbon.bottom-right{
+  top: auto;
+  right: -50px;
+  bottom: 25px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.btn-default {
+  color: #fff;
+  background:#111;
+  border:2px solid #48A3c6 !important; 
+}
+.btn-default:hover{
+  color: #fff;
+  background:#48A3c6 !important;
+  border:2px solid #48A3c6 !important;
+}
+
+.card {
+  position: relative;bottom:0;top: 10px;left: 0;right: 0;
+}
+.display-none {
+  display: none;
+}
+
+.eyeCy{
+      position:relative;
+  }
+  .eyeCy .fa-eye{
+      position: absolute;
+      top: 45px;
+      right: 15px;
+      font-size: 15px;
+  }
+
+.fa-eye-slash,
+  .eyeCy.fa-eye{
+      position: absolute;
+      top: 45px;
+      right: 15px;
+      font-size: 15px;
+  }
+.card-header{
+  background: #111 !important;
+  border:1px solid #48A3c6 !important;
+  color: #48A3c6 ! important;
+}
+.card-header:first-child{
+  border-radius: 0 !important;
+}
+.heading{
+  color:#48A3c6 !important;
+}
+.image-block{
+    background-color: #ecf0f5;
+    border-radius: 4px;
+    height: 100px;
+    margin:5px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 6px rgba(0,0,0,0.05), inset -1px -1px 6px rgba(0,0,0,0.05);
+}
+#overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    z-index: 100;
+    display: none;
+}

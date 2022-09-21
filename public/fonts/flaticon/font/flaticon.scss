@@ -1,0 +1,73 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?c3273dae4b2724e92f1fc1ed29ef973a") format("truetype"),
+url("./flaticon.woff?c3273dae4b2724e92f1fc1ed29ef973a") format("woff"),
+url("./flaticon.woff2?c3273dae4b2724e92f1fc1ed29ef973a") format("woff2"),
+url("./flaticon.eot?c3273dae4b2724e92f1fc1ed29ef973a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c3273dae4b2724e92f1fc1ed29ef973a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "notifications-bell-button": "\f101",
+    "notification-bell": "\f102",
+    "search": "\f103",
+    "bell": "\f104",
+    "cancel": "\f105",
+    "translate": "\f106",
+    "notification": "\f107",
+    "left-arrow": "\f108",
+    "right-arrow": "\f109",
+    "login": "\f10a",
+    "contact": "\f10b",
+    "profile": "\f10c",
+);
+
+.flaticon-notifications-bell-button:before {
+    content: map-get($flaticon-map, "notifications-bell-button");
+}
+.flaticon-notification-bell:before {
+    content: map-get($flaticon-map, "notification-bell");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-bell:before {
+    content: map-get($flaticon-map, "bell");
+}
+.flaticon-cancel:before {
+    content: map-get($flaticon-map, "cancel");
+}
+.flaticon-translate:before {
+    content: map-get($flaticon-map, "translate");
+}
+.flaticon-notification:before {
+    content: map-get($flaticon-map, "notification");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-login:before {
+    content: map-get($flaticon-map, "login");
+}
+.flaticon-contact:before {
+    content: map-get($flaticon-map, "contact");
+}
+.flaticon-profile:before {
+    content: map-get($flaticon-map, "profile");
+}
